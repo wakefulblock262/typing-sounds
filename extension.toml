@@ -2,7 +2,7 @@ id = "typing-sounds"
 name = "Typing Sounds"
 version = "0.0.1"
 schema_version = 1
-authors = ["User"]
+authors = ["wakefulblock262 <everett.kamulda@outlook.com>"]
 description = "Plays a sound when you type."
 
 [language_servers]
