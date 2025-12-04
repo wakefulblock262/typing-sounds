@@ -20,7 +20,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     // We use a Sink to manage playback, though for rapid typing sounds,
     // creating a new source for each event is often snappier.
     // However, keeping the stream handle alive is crucial.
-
+    
     // Pre-decode the sound
     let cursor = Cursor::new(SOUND_BYTES);
     let source = Decoder::new(cursor)?;
