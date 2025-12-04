@@ -1,0 +1,9 @@
+id = "typing-sounds"
+name = "Typing Sounds"
+version = "0.0.1"
+schema_version = 1
+authors = ["User"]
+description = "Plays a sound when you type."
+
+[language_servers]
+typing-sounds-server = { languages = ["Rust", "TypeScript", "JavaScript", "Python", "Go", "Markdown", "JSON", "TOML", "Plain Text"] }
